@@ -28,11 +28,12 @@ class MqttHandler {
             console.log('mqtt client connected today');
         });
 
-        this.mqttClient.subscribe('test', {qos: 0});
+        this.mqttClient.subscribe('GEM', {qos: 0});
         
         this.mqttClient.on('message', async (topic: any, message: any) =>{
-            let msg = '{"productID": "608dea239f78590add47ce24", "s1": {"sensor_name": "Temperatura", "value": "20"}}';
-            msg = JSON.parse(msg);
+            console.log(message.toString());
+            //let msg = '{"productID": "608dea239f78590add47ce24", "s1": {"sensor_name": "Temperatura", "value": "20"}}';
+            let msg = JSON.parse(message.toString());
             const user: String = await onMessage(msg);
             console.log(user);
             io.sockets._events.messageReceiver(io,user, msg);

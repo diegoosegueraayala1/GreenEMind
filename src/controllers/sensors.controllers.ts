@@ -66,8 +66,8 @@ export const updateSensor: any = async (req: Request, res: Response) => {
 }
 
 export const onMessage: any = async (msg: any) => {
-        const result:any =  await sensorsSchema.findOne({productID: msg.productID, sensor_name: msg.s1.sensor_name});
-        result.readings.push({value: msg.s1.value});
+        const result:any =  await sensorsSchema.findOne({productID: msg.productID, sensor_name: 'Temperatura'});
+        result.readings.push({value: msg.temp});
         await sensorsSchema.findOneAndUpdate({_id: result._id}, result);
         const userid:any =  await sensorsSchema.findOne({_id: result._id}).populate('productID').exec();
         const socketid: any =  await productsSchema.findOne({_id: userid.productID}).populate('userID').exec()
