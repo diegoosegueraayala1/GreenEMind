@@ -1,6 +1,7 @@
 import usersSchema, {User} from "../models/users.models";
 import { Response, Request } from "express";
-
+import {keys} from "../config/keys"
+import {sign} from "jsonwebtoken";
 
 export const createUser:any = async(req: Request, res: Response) => {
     let newUser: User = {
@@ -12,8 +13,8 @@ export const createUser:any = async(req: Request, res: Response) => {
         password: req.body.password
     };
     try{
-        await usersSchema.create(newUser);
-        res.status(200).json({message: "User created"});
+        const result = await usersSchema.create(newUser);
+        res.status(200).json({message: "User created", result});
     }catch(e){
         res.status(400).json({message: "User could not be created"});
         console.error(e);
@@ -56,7 +57,6 @@ export const updateUser: any = async(req: Request, res: Response) => {
     }catch(e){
         console.error(e);
         res.status(400).json({message: "User can not be modified"});
-
     }
 };
 
@@ -69,3 +69,38 @@ export const deleateUser: any = async(req: Request, res: Response) => {
         console.error(e);
     }
 };
+
+export const loginUser: any = async(req:Request, res: Response) => {
+    const userData = {
+        email: req.body.email,
+        password: req.body.password
+    }
+    if(userData.email === " " || userData.password === " "){
+        console.log("Email vacío");
+        res.status(409).send('Server error');
+        return;
+    }
+    if(!userData.email || !userData.password){
+        res.status(409).send('Server error');
+
+    }else{
+        if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(userData.email)){
+            const result:any = await usersSchema.findOne({email: req.body.email});
+            if(!result){
+                res.status(409).send('Not found');
+            }else{
+                //let encrypted = await helpers.matchPassword(userData.password,result[0].password);
+                if(result.password === req.body.password){
+                    const expiresIn = 60*60;
+                    const accessToken = sign({id: result.email,}, keys.SECRET_KEY, {expiresIn: expiresIn});
+                    //console.log(accessToken);
+                    res.status(200).json({token: accessToken});
+                  }else{
+                    res.status(409).send('Bad credentials');
+                }
+            }
+        }else{
+            res.status(409).send('Server error');
+        }
+    }
+}

@@ -45,6 +45,10 @@ const userSchema: Schema = new Schema({
     status: {
         type: String,
         default: 'A'
+    },
+    socket_id: {
+        type: String,
+        default: null
     }
 });
 

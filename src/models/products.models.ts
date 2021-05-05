@@ -1,7 +1,8 @@
 import mongoose, { Schema } from "mongoose";
+import userSchema from "./users.models";
 
 export interface Product {
-    registration_date: String,
+    registration_date?: Date,
     nickname: String,
     status: String,
     userID: mongoose.Types.ObjectId

@@ -31,6 +31,7 @@
    e.preventDefault();
    if (input.value) {
       socket.emit('chat message', input.value);
+      socket.emit('token', "Esta es mi token");
       input.value = '';
    }
    });

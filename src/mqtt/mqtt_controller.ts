@@ -1,4 +1,7 @@
 import mqtt from "mqtt";
+import {onMessage} from "../controllers/sensors.controllers";
+import usersSchema from "../models/users.models";
+import {io} from "../server";
 
 class MqttHandler {
     mqttClient: any;
@@ -8,7 +11,7 @@ class MqttHandler {
     
     constructor() {
         this.mqttClient = null;
-        this.host = 'mqtt://localhost',
+        this.host = 'mqtt://20.97.9.143',
         this.user_name = '',
         this.password = ''
     }
@@ -22,14 +25,18 @@ class MqttHandler {
         });
 
         this.mqttClient.on('connect', () => {
-            console.log('mqtt client connected');
+            console.log('mqtt client connected today');
         });
 
         this.mqttClient.subscribe('test', {qos: 0});
         
-        this.mqttClient.on('message', (topic: any, message: any) =>{
-            console.log(message.toString());
-        }); 
+        this.mqttClient.on('message', async (topic: any, message: any) =>{
+            let msg = '{"productID": "608dea239f78590add47ce24", "s1": {"sensor_name": "Temperatura", "value": "20"}}';
+            msg = JSON.parse(msg);
+            const user: String = await onMessage(msg);
+            console.log(user);
+            io.sockets._events.messageReceiver(io,user, msg);
+        });
 
         this.mqttClient.on('close', () => {
             console.log('mqtt client disconnected');

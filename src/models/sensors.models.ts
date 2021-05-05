@@ -1,13 +1,15 @@
 import mongoose, { Decimal128, Schema } from "mongoose";
+import productsSchema from "./products.models";
 
 export interface reading {
-    datetime: Date,
+    datetime?: Date,
     value: Decimal128
 }
 export interface Sensor {
-    productID: mongoose.Types.ObjectId,
+    sensorID?: mongoose.Types.ObjectId,
     sensor_name: String,
-    readings: reading
+    readings?: reading,
+    productID?: mongoose.Types.ObjectId,
 };
 
 const sensorsSchema: Schema = new Schema({
