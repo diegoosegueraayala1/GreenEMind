@@ -4,7 +4,7 @@ import {verifyToken} from "../middlewares/auth";
 
 export const userRouter:Router = express.Router();
 
-userRouter.post('/', [verifyToken], createUser);
+userRouter.post('/', createUser);
 userRouter.get('/', [verifyToken], getUsers);
 userRouter.get('/:userID', [verifyToken], getUser);
 userRouter.delete('/:userID', [verifyToken], deleateUser);

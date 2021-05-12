@@ -8,6 +8,7 @@ class MqttHandler {
     host: any;
     user_name: any;
     password: any;
+    num = 0;
     
     constructor() {
         this.mqttClient = null;
@@ -31,12 +32,20 @@ class MqttHandler {
         this.mqttClient.subscribe('GEM', {qos: 0});
         
         this.mqttClient.on('message', async (topic: any, message: any) =>{
-            console.log(message.toString());
+            
+            const words = ['Buenos días.','¡Apenas acabo de despertarme...!', 'Estoy toda despeinada', '¡He nacido al mismo tiempo que el Sol!', 'Creo que es la hora del desayuno', '¿Puedes traerme el desayuno?', '¿Podrías ponerme algún biombo por la noche para que el frío no moleste?', 'Te quiero', 'Prefiero que vengan las orguas. Si no.. ¿cómo conoceré a las mariposas?', '¿Hay tigres en tu planeta?. No temo a los tigres, pero me dan miedo las corrientes de aire', '¡Hay una serpiente en mi bota!', 'Solo eres un juguete', 'Juega bonito Sid.'];
+            //console.log(message.toString());
             //let msg = '{"productID": "608dea239f78590add47ce24", "s1": {"sensor_name": "Temperatura", "value": "20"}}';
             let msg = JSON.parse(message.toString());
             const user: String = await onMessage(msg);
-            console.log(user);
-            io.sockets._events.messageReceiver(io,user, msg);
+            if(this.num === words.length ){
+                this.num = 0;
+            }
+            //console.log(user);
+            //io.sockets._events.messageReceiver(io,'pZeCudJYb9CtMghZAAAB', msg);
+            io.sockets._events.messageReceiver(io,user, words[this.num]);
+            //console.log('Hola ', msg);
+            this.num = this.num +1;
         });
 
         this.mqttClient.on('close', () => {
@@ -45,7 +54,7 @@ class MqttHandler {
     }
 
     public sendMessage(message: any): any {
-        this.mqttClient.publish('test', message);
+        this.mqttClient.publish('GEM', message);
     }
 }
 

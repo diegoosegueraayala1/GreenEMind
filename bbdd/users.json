@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "608dd9eb884fcef115a984d0"
+  },
+  "registration_date": "Sat May 01 2021 17:37:21 GMT-0500 (hora de verano central)",
+  "status": "A",
+  "name": "Diego",
+  "last_name": "Oseguera",
+  "birthdate": "1997-06-22:T00:00:00",
+  "email": "diegooseguera@gmail.com",
+  "nickname": "diegooseguera1",
+  "password": "12345",
+  "socket_id": "XksAcyfdII8_GZWpAAAL",
+  "__v": 0
+}]

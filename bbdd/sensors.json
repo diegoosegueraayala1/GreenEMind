@@ -1,0 +1,1194 @@
+[{
+  "_id": {
+    "$oid": "608e1b3965e4c445b58e3c8b"
+  },
+  "sensor_name": "Temperatura",
+  "productID": {
+    "$oid": "608dea239f78590add47ce24"
+  },
+  "readings": [
+    {
+      "datetime": {
+        "$date": "2021-05-02T04:33:08.012Z"
+      },
+      "_id": {
+        "$oid": "608e2ba32c87f9583c93a9d0"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T04:33:08.012Z"
+      },
+      "_id": {
+        "$oid": "608e2bbb2c87f9583c93a9d2"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T04:36:40.186Z"
+      },
+      "_id": {
+        "$oid": "608e2c5aca01da5947d2f1c5"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:04:44.118Z"
+      },
+      "_id": {
+        "$oid": "608e32f56bb86e619ba075b1"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:05:11.515Z"
+      },
+      "_id": {
+        "$oid": "608e330ab0180261c408ad38"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:08:21.756Z"
+      },
+      "_id": {
+        "$oid": "608e33d5f6e42e62a3834e3d"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:08:55.431Z"
+      },
+      "_id": {
+        "$oid": "608e3417a9a10c62d33f035a"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:10:00.106Z"
+      },
+      "_id": {
+        "$oid": "608e3481614d1263711f2bd6"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:13:54.654Z"
+      },
+      "_id": {
+        "$oid": "608e3515081b14648e72173b"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:16:04.946Z"
+      },
+      "_id": {
+        "$oid": "608e35972281a76513a12d3d"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:17:16.039Z"
+      },
+      "_id": {
+        "$oid": "608e35e144cae36573a5fd0a"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:18:31.951Z"
+      },
+      "_id": {
+        "$oid": "608e362b6137c165b408910a"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:19:10.994Z"
+      },
+      "_id": {
+        "$oid": "608e3655f940b26691b2fab0"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:19:31.354Z"
+      },
+      "_id": {
+        "$oid": "608e3666ca159366cb48b1d6"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:21:13.164Z"
+      },
+      "_id": {
+        "$oid": "608e36df419b7c67090037f4"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:21:55.165Z"
+      },
+      "_id": {
+        "$oid": "608e37372d44e76740ec57b4"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:23:24.662Z"
+      },
+      "_id": {
+        "$oid": "608e375080213867c69f9420"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:30:12.802Z"
+      },
+      "_id": {
+        "$oid": "608e399c7f0d5b68eb43a6d3"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:33:42.555Z"
+      },
+      "_id": {
+        "$oid": "608e39b85e244e6986af3be2"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:35:05.706Z"
+      },
+      "_id": {
+        "$oid": "608e3a0ec122456a20881d88"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:35:05.706Z"
+      },
+      "_id": {
+        "$oid": "608e3a44c122456a20881d9d"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-02T05:36:25.661Z"
+      },
+      "_id": {
+        "$oid": "608e3a5d197cf16a61ab149a"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:07:40.121Z"
+      },
+      "_id": {
+        "$oid": "6090acd55d6457227506f94d"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:12:58.699Z"
+      },
+      "_id": {
+        "$oid": "6090ae3a5aad46261e564af0"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:16:25.644Z"
+      },
+      "_id": {
+        "$oid": "6090ae88cb6a442693b3cad7"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:19:52.452Z"
+      },
+      "_id": {
+        "$oid": "6090af5165252427aef49bb0"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:23:24.651Z"
+      },
+      "_id": {
+        "$oid": "6090b024ebb38e2881275d80"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:24:49.273Z"
+      },
+      "_id": {
+        "$oid": "6090b07b66f44c28caf4485e"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:28:01.143Z"
+      },
+      "_id": {
+        "$oid": "6090b1399a5e3129eeae8f4c"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:28:48.142Z"
+      },
+      "_id": {
+        "$oid": "6090b16341be9f2aadcf958e"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:30:38.183Z"
+      },
+      "_id": {
+        "$oid": "6090b1da96e5342ba1cb9578"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:33:19.800Z"
+      },
+      "_id": {
+        "$oid": "6090b278be679f2c0edd61bd"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:33:47.617Z"
+      },
+      "_id": {
+        "$oid": "6090b28dc381652c3a6dca81"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:34:39.462Z"
+      },
+      "_id": {
+        "$oid": "6090b2cb42cf252c9b7200d6"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:36:54.842Z"
+      },
+      "_id": {
+        "$oid": "6090b34d4b8c662cf181109d"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:39:20.744Z"
+      },
+      "_id": {
+        "$oid": "6090b3e0feaf352dfa8875b3"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:43:11.915Z"
+      },
+      "_id": {
+        "$oid": "6090b4cb9eb3c52fcf2619fe"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T02:43:56.977Z"
+      },
+      "_id": {
+        "$oid": "6090b4f2792ce3301425d5f6"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T04:04:37.298Z"
+      },
+      "_id": {
+        "$oid": "6090c7e3798a7b506b3d3fdd"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T04:04:37.298Z"
+      },
+      "_id": {
+        "$oid": "6090c7f3798a7b506b3d4005"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T04:05:50.550Z"
+      },
+      "_id": {
+        "$oid": "6090c82259321650c279a6ea"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T04:06:28.436Z"
+      },
+      "_id": {
+        "$oid": "6090cad79de4f95129ba590a"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T04:18:39.146Z"
+      },
+      "_id": {
+        "$oid": "6090cb21e062fb552a3b6c00"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T04:27:53.531Z"
+      },
+      "_id": {
+        "$oid": "6090cd57295fb95c1a1aebc8"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T04:32:50.976Z"
+      },
+      "_id": {
+        "$oid": "6090ce7b07a7c65e0addebcb"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T04:49:26.005Z"
+      },
+      "_id": {
+        "$oid": "6090d25b87119a659490ffa7"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:03:29.475Z"
+      },
+      "_id": {
+        "$oid": "6090d5a6b2f4fe6bf4c03a92"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:05:25.572Z"
+      },
+      "_id": {
+        "$oid": "6090d61a0bd38e6cd142ecd2"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:07:13.671Z"
+      },
+      "_id": {
+        "$oid": "6090d689325e896dc64dc522"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:07:13.671Z"
+      },
+      "_id": {
+        "$oid": "6090d6a4325e896dc64dc554"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:08:32.834Z"
+      },
+      "_id": {
+        "$oid": "6090d6d8b2c8fe6e30fcc28d"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:09:40.028Z"
+      },
+      "_id": {
+        "$oid": "6090d71c453b236f4c26d3ab"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:10:47.366Z"
+      },
+      "_id": {
+        "$oid": "6090d761c0a1546fa3735f3b"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:11:38.122Z"
+      },
+      "_id": {
+        "$oid": "6090d78e6050eb6fee881698"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:15:08.352Z"
+      },
+      "_id": {
+        "$oid": "6090d862e2545d7186fbc658"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:16:07.431Z"
+      },
+      "_id": {
+        "$oid": "6090d89b2a256671df2c0e78"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:19:11.287Z"
+      },
+      "_id": {
+        "$oid": "6090d95da860b2730148dd7c"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:19:43.004Z"
+      },
+      "_id": {
+        "$oid": "6090d9782e1d85733c801645"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:20:29.518Z"
+      },
+      "_id": {
+        "$oid": "6090d9a0db8cce73611c36ef"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-04T05:20:52.133Z"
+      },
+      "_id": {
+        "$oid": "6090d9b90d5314738c6c933e"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:52:03.540Z"
+      },
+      "_id": {
+        "$oid": "6092166e1287f923cc648a3e"
+      },
+      "value": {
+        "$numberDecimal": "20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "6092175a2eca7e253b4509ea"
+      },
+      "value": {
+        "$numberDecimal": "24.90"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "6092175e2eca7e253b450a29"
+      },
+      "value": {
+        "$numberDecimal": "25.00"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609217722eca7e253b450a69"
+      },
+      "value": {
+        "$numberDecimal": "25.00"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609217862eca7e253b450aaa"
+      },
+      "value": {
+        "$numberDecimal": "25.10"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "6092179a2eca7e253b450aec"
+      },
+      "value": {
+        "$numberDecimal": "25.10"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609217ae2eca7e253b450b2f"
+      },
+      "value": {
+        "$numberDecimal": "25.10"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609217c22eca7e253b450b73"
+      },
+      "value": {
+        "$numberDecimal": "25.10"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609217d62eca7e253b450bb8"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609217ea2eca7e253b450bfe"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609217fe2eca7e253b450c45"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609218122eca7e253b450c8d"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609218262eca7e253b450cd6"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "6092183a2eca7e253b450d20"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "6092184e2eca7e253b450d6b"
+      },
+      "value": {
+        "$numberDecimal": "25.10"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609218622eca7e253b450db7"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609218762eca7e253b450e04"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "6092188a2eca7e253b450e52"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609218a02eca7e253b450ea1"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609218b22eca7e253b450ef1"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609218ca2eca7e253b450f42"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609218da2eca7e253b450f94"
+      },
+      "value": {
+        "$numberDecimal": "25.20"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609218ef2eca7e253b450fe7"
+      },
+      "value": {
+        "$numberDecimal": "25.10"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609219022eca7e253b45103b"
+      },
+      "value": {
+        "$numberDecimal": "25.10"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609219162eca7e253b451090"
+      },
+      "value": {
+        "$numberDecimal": "25.10"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "6092192a2eca7e253b4510e6"
+      },
+      "value": {
+        "$numberDecimal": "25.10"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "6092193e2eca7e253b45113d"
+      },
+      "value": {
+        "$numberDecimal": "25.10"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609219522eca7e253b451195"
+      },
+      "value": {
+        "$numberDecimal": "25.10"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609219662eca7e253b4511ee"
+      },
+      "value": {
+        "$numberDecimal": "25.00"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "6092197a2eca7e253b451248"
+      },
+      "value": {
+        "$numberDecimal": "24.90"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "6092198e2eca7e253b4512a3"
+      },
+      "value": {
+        "$numberDecimal": "24.90"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609219a22eca7e253b4512ff"
+      },
+      "value": {
+        "$numberDecimal": "24.90"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609219b62eca7e253b45135c"
+      },
+      "value": {
+        "$numberDecimal": "24.80"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609219ca2eca7e253b4513ba"
+      },
+      "value": {
+        "$numberDecimal": "24.80"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609219de2eca7e253b451419"
+      },
+      "value": {
+        "$numberDecimal": "24.70"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "609219f22eca7e253b451479"
+      },
+      "value": {
+        "$numberDecimal": "24.70"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921a062eca7e253b4514da"
+      },
+      "value": {
+        "$numberDecimal": "24.70"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921a1a2eca7e253b45153c"
+      },
+      "value": {
+        "$numberDecimal": "24.70"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921a2e2eca7e253b45159f"
+      },
+      "value": {
+        "$numberDecimal": "24.70"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921a422eca7e253b451603"
+      },
+      "value": {
+        "$numberDecimal": "24.70"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921a562eca7e253b451668"
+      },
+      "value": {
+        "$numberDecimal": "24.60"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921a6a2eca7e253b4516ce"
+      },
+      "value": {
+        "$numberDecimal": "24.60"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921a7e2eca7e253b451735"
+      },
+      "value": {
+        "$numberDecimal": "24.60"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921a922eca7e253b45179d"
+      },
+      "value": {
+        "$numberDecimal": "24.60"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921aa62eca7e253b451806"
+      },
+      "value": {
+        "$numberDecimal": "24.60"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921aba2eca7e253b451870"
+      },
+      "value": {
+        "$numberDecimal": "24.60"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921ace2eca7e253b4518db"
+      },
+      "value": {
+        "$numberDecimal": "24.60"
+      }
+    },
+    {
+      "datetime": {
+        "$date": "2021-05-05T03:56:10.299Z"
+      },
+      "_id": {
+        "$oid": "60921ae22eca7e253b451947"
+      },
+      "value": {
+        "$numberDecimal": "24.60"
+      }
+    }
+  ],
+  "__v": 0
+}]

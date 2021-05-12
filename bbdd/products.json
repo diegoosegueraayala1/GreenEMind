@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "608dea239f78590add47ce24"
+  },
+  "status": "A",
+  "registration_date": {
+    "$date": "2021-05-01T23:54:11.330Z"
+  },
+  "nickname": "One",
+  "userID": {
+    "$oid": "608dd9eb884fcef115a984d0"
+  },
+  "__v": 0
+}]
