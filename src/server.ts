@@ -11,14 +11,27 @@ import { sensorRouter } from "./routes/sensors.routes";
 import { Database } from "./config/mongo";
 import userSchema from "./models/users.models";
 
+
+// const options = {
+//     key: fs.readFileSync("/home/greenemind/greenemind_com_key.key"),
+//     cert: fs.readFileSync( /etc/ssl/ssl.key/s-school_com_mx.key"/home/greenemind/greenemind_com.crt")
+// };
+
 // Initializations
 const app: Application = express();
+const https = require('https').Server(app);
+const fs = require('fs');
 const http = require('http').Server(app);
 export const io = require('socket.io')(http, {
   cors: {
   origin: "*",
   methods: ["GET", "POST"]
 }});
+// export const io = require('socket.io')(https, {
+//   cors: {
+//   origin: "*",
+//   methods: ["GET", "POST"]
+// }});
 
 // Settings
 app.set('port', 3000);
@@ -89,6 +102,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 http.listen(3000, function() {
   console.log('listening on *:3000');
 });
+// https.listen(3000, function() {
+//   console.log('listening on *:3000');
+// });
 
 // import express, {Request, Response } from "express";
 
