@@ -33,7 +33,7 @@ class MqttHandler {
         
         this.mqttClient.on('message', async (topic: any, message: any) =>{
             
-            const words = ['Buenos días.','¡Apenas acabo de despertarme...!', 'Estoy toda despeinada', '¡He nacido al mismo tiempo que el Sol!', 'Creo que es la hora del desayuno', '¿Puedes traerme el desayuno?', '¿Podrías ponerme algún biombo por la noche para que el frío no moleste?', 'Te quiero', 'Prefiero que vengan las orguas. Si no.. ¿cómo conoceré a las mariposas?', '¿Hay tigres en tu planeta?. No temo a los tigres, pero me dan miedo las corrientes de aire', '¡Hay una serpiente en mi bota!', 'Solo eres un juguete', 'Juega bonito Sid.'];
+            const words = ['Buenos días.','¡Apenas acabo de despertarme...!', 'Estoy toda despeinada', '¡He nacido al mismo tiempo que el Sol!', 'Creo que es la hora del desayuno', '¿Puedes traerme el desayuno?', '¿Podrías ponerme algún biombo por la noche para que el frío no moleste?', 'Te quiero', 'Prefiero que vengan las orugas. Si no.. ¿cómo conoceré a las mariposas?', '¿Hay tigres en tu planeta?. No temo a los tigres, pero me dan miedo las corrientes de aire', '¡Hay una serpiente en mi bota!', 'Solo eres un juguete', 'Juega bonito Sid.'];
             //console.log(message.toString());
             //let msg = '{"productID": "608dea239f78590add47ce24", "s1": {"sensor_name": "Temperatura", "value": "20"}}';
             let msg = JSON.parse(message.toString());
